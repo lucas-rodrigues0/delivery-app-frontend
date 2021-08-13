@@ -1,0 +1,50 @@
+header {
+  background-color: #f3f3f3;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.flexLeft {
+  display: flex;
+  width: 25%;
+}
+
+.flexRight {
+  align-items: center;
+  display: flex;
+  width: 20%;
+}
+
+.flexLeft button {
+  background-color: lightseagreen;
+  border: none;
+  font-size: large;
+  height: 50px;
+  width: 100%;
+}
+
+.flexRight p {
+  align-items: center;
+  background-color: darkslateblue;
+  color: white;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.flexRight a {
+  align-items: center;
+  background-color: lightseagreen;
+  color: black;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+}
